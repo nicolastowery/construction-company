@@ -14,6 +14,7 @@ View live demo [here!](https://construction-company-six.vercel.app/)
 - CSS3
 - Typescript
 - React.js
+- Vite
 - Figma
 
 ## Methodologies Used
