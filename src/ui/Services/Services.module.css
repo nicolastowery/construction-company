@@ -1,0 +1,20 @@
+.servicesContainer {
+  background-color: var(--neutral-50);
+  padding: 44px 200px 76px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceCardContainer {
+  padding-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 98px;
+  row-gap: 48px;
+  /* padding: 0 200px 0 200px; */
+  /* max-width: 1409px; */
+}

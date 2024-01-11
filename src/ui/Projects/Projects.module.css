@@ -1,0 +1,95 @@
+.projectsContainer {
+  padding: 88px 112px 138px 112px;
+}
+
+.projectsContainer h1 {
+  text-align: left;
+}
+
+.projectsContentContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.projectsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.projectsListItemButton {
+  display: flex;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.selector {
+  width: 4px;
+  height: 28px;
+}
+
+.isSelectedSelector {
+  background: var(--primary);
+}
+
+.span {
+  color: var(--neutral-200);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 16px;
+}
+
+.isSelectedSpan {
+  color: var(--primary);
+}
+
+.projectCardsContainer {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.sliderControlsContainer {
+  padding-top: 32px;
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sliderControlsContainer button {
+  background: var(--neutral-800);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  width: 295px;
+  height: 64px;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.sliderIconContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.sliderIcon {
+  height: 16px;
+  width: 16px;
+  border-radius: 999px;
+  background-color: var(--neutral-50);
+}
+
+.sliderIconFilled {
+  background-color: var(--primary);
+}

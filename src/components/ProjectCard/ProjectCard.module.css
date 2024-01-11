@@ -1,0 +1,23 @@
+.projectCardImageContainer {
+  height: 247px;
+}
+
+.projectCardTextContainer {
+  background: var(--primary);
+  display: flex;
+  padding: 12px 12px 16px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  color: #fff;
+}
+
+.projectCardTextContainer h2 {
+  font-size: 20px;
+}
+
+.projectCardText {
+  font-size: 18px;
+}

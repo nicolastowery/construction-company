@@ -1,0 +1,40 @@
+.adsContainer {
+  height: 300px;
+  background-image: url("ads.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 182px;
+}
+
+.adsTextContainer h1 {
+  color: #fff;
+}
+
+.adsText {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+.adsText a {
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+.adsButton {
+  display: inline-flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background: none;
+  cursor: pointer;
+}

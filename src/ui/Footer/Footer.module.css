@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--primary);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 112px 0 112px;
+
+  /* Caption */
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-size: 11px;
+  row-gap: 5px;
+}
+
+.footerRight a {
+  color: inherit;
+  text-decoration: underline;
+}

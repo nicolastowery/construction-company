@@ -1,0 +1,18 @@
+@import "../../styles.css";
+
+.navULContainer {
+  display: flex;
+  column-gap: 50px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navULContainer li a {
+  color: var(--neutral-900);
+}
+
+.contactUs li a {
+  color: var(--secondary);
+  font-weight: 600;
+}

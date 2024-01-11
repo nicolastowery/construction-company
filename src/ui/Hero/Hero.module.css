@@ -1,0 +1,21 @@
+@import "../../styles.css";
+
+.heroContainer {
+  height: 646px;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.9) 16.58%,
+      rgba(255, 255, 255, 0) 72.38%
+    ),
+    url("../../../public/hero.jpg") center / cover no-repeat lightgray;
+  display: flex;
+  align-items: center;
+  padding-left: 112px;
+}
+
+.textContainer {
+  font-size: 72px;
+  font-weight: 600;
+  width: 556px;
+  color: var(--neutral-800);
+}

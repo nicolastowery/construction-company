@@ -1,0 +1,44 @@
+.statsContainer {
+  display: flex;
+  padding: 103px 137px 200px 260px;
+  justify-content: space-between;
+}
+
+.statInfo {
+  width: 359px;
+  padding-top: 50px;
+}
+
+.statInfo h1 {
+  font-size: 60px;
+  text-align: left;
+  color: var(--primary);
+}
+
+.statInfoText {
+  color: var(--neutral-600);
+  width: 330px;
+  padding-top: 40px;
+  padding-bottom: 67px;
+}
+
+.statInfo button {
+  display: flex;
+  width: 176px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.statCardsContainer {
+  /* margin-right: auto; */
+  padding-left: 212px;
+}

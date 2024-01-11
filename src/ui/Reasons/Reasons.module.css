@@ -1,0 +1,17 @@
+.reasonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 84px;
+  flex-direction: column;
+}
+
+.reasonsContainer h1 {
+  padding-bottom: 50px;
+}
+
+.reputationCardsContainer {
+  display: flex;
+  column-gap: 66px;
+}

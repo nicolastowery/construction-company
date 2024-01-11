@@ -1,0 +1,70 @@
+/* VARIABLES */
+:root {
+  --primary: #2947a9;
+  --secondary: #f9995d;
+  --neutral-50: #f6f8f7;
+  --neutral-100: #e0e3eb;
+  --neutral-200: #c2c7d6;
+  --neutral-300: #a3aac2;
+  --neutral-400: #858ead;
+  --neutral-600: #525b7a;
+  --neutral-700: #3d445c;
+  --neutral-800: #292e3d;
+  --neutral-900: #14171f;
+  --primary-background-color: #fff;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: auto;
+  height: 100%;
+  max-width: 100dvw;
+  cursor: default;
+}
+
+body {
+  font: 20px "Work Sans", sans-serif;
+  font-weight: 400;
+  position: relative;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--neutral-800);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+button {
+  font: inherit;
+}
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.app {
+  max-width: 1440px;
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+.aboutUsContainer {
+  color: #fff;
+  position: relative;
+  padding-left: 114px;
+  padding-top: 74px;
+  padding-bottom: 202px;
+  height: 945px;
+}
+
+.aboutUsInfoContainer h1 {
+  color: #fff;
+  text-align: left;
+}
+
+.aboutUsInfoContainer {
+  width: 488px;
+  height: 523px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: var(--primary);
+  box-shadow: 0px 8px 8px -4px rgba(17, 24, 39, 0.04),
+    0px 20px 24px -4px rgba(17, 24, 39, 0.1);
+  padding-left: 40px;
+  padding-top: 50px;
+  position: absolute;
+  left: 820px;
+  top: 135px;
+}
+
+.aboutUsTextContainer {
+  width: 388px;
+  margin-bottom: 74px;
+  margin-top: 37px;
+}
+
+.aboutUsButton {
+  display: inline-flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #fff;
+  color: var(--primary);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.imageContainer {
+  position: absolute;
+}
+
+.image {
+  width: 902px;
+}
