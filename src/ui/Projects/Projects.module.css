@@ -1,5 +1,5 @@
 .projectsContainer {
-  padding: 88px 112px 138px 112px;
+  padding: 88px 112px 232px 112px;
 }
 
 .projectsContainer h1 {
@@ -52,6 +52,7 @@
   /* gap: 32px; */
   width: 800px;
   position: relative;
+  margin-top: -32px;
 }
 
 .sliderControlsContainer {
@@ -79,6 +80,12 @@
   position: absolute;
   top: 108.65%;
   transform: translateY(-50%);
+  transition: 0.1s ease;
+}
+
+.sliderBackButton:hover,
+.sliderNextButton:hover {
+  background-color: var(--neutral-900);
 }
 
 .sliderNextButton {
@@ -106,4 +113,25 @@
 
 .sliderIconFilled {
   background-color: var(--primary);
+}
+
+.selector,
+.span {
+  transition: 0.2s ease;
+}
+
+.projectsListItemButton:hover .selector {
+  background-color: var(--neutral-300);
+}
+
+.projectsListItemButton:hover .span {
+  color: var(--neutral-300);
+}
+
+.projectsListItemButton:hover .isSelectedSelector {
+  background-color: var(--primary);
+}
+
+.projectsListItemButton:hover .isSelectedSpan {
+  color: var(--primary);
 }

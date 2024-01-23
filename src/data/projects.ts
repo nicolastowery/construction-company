@@ -15,7 +15,7 @@ export const projects = [
     imgFilePath: "parkinston.png",
     title: "Mr. Parkinston's House",
     address: "3517 W. Gray St. Utica, Pennsylvania",
-    projectType: "Resedential",
+    projectType: "Residential",
   },
   {
     imgFilePath: "oregano.png",
@@ -36,12 +36,6 @@ export const projects = [
     projectType: "Other",
   },
   {
-    imgFilePath: "parkinston.png",
-    title: "Mr. Parkinston's House",
-    address: "3517 W. Gray St. Utica, Pennsylvania",
-    projectType: "Resedential",
-  },
-  {
     imgFilePath: "oregano.png",
     title: "Oregano Height",
     address: "2464 Royal Ln. Mesa, New Jersey",
@@ -52,5 +46,23 @@ export const projects = [
     title: "Wish Stone Building",
     address: "2972 Westheimer Rd. Santa Ana, Illinois",
     projectType: "Other",
+  },
+  {
+    imgFilePath: "wish.png",
+    title: "Wish Stone Building",
+    address: "2972 Westheimer Rd. Santa Ana, Illinois",
+    projectType: "Commercial",
+  },
+  {
+    imgFilePath: "parkinston.png",
+    title: "Mr. Parkinston's House",
+    address: "3517 W. Gray St. Utica, Pennsylvania",
+    projectType: "Residential",
+  },
+  {
+    imgFilePath: "parkinston.png",
+    title: "Mr. Parkinston's House",
+    address: "3517 W. Gray St. Utica, Pennsylvania",
+    projectType: "Residential",
   },
 ];

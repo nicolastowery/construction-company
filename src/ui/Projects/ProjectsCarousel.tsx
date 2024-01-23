@@ -6,7 +6,18 @@ import { projects } from "../../data/projects";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import ProjectsCarouselArrow from "./ProjectsCarouselArrow";
 
-export default function ProjectsCarousel() {
+interface ProjectCarouselProps {
+  activeCategory: string;
+}
+
+export default function ProjectsCarousel({
+  activeCategory,
+}: ProjectCarouselProps) {
+  const activeProjects =
+    activeCategory === "All"
+      ? projects
+      : projects.filter((p) => p.projectType === activeCategory);
+
   const settings = {
     className: "center",
     dots: true,
@@ -24,15 +35,17 @@ export default function ProjectsCarousel() {
     speed: 1000,
     cssEase: "linear",
     initialSlide: 1,
-    prevArrow: <ProjectsCarouselArrow direction="left" />,
-    nextArrow: <ProjectsCarouselArrow direction="right" />,
+    // Passing empty arrow function to satisfy onClick for TS
+    prevArrow: <ProjectsCarouselArrow direction="left" onClick={() => {}} />,
+    nextArrow: <ProjectsCarouselArrow direction="right" onClick={() => {}} />,
     customPaging: () => <div className={styles.sliderIcon} />,
   };
+
   return (
     <div>
       <div className={styles.projectsCarouselContainer}>
         <Slider {...settings}>
-          {projects.map((p) => (
+          {activeProjects.map((p) => (
             <ProjectCard
               imgFilePath={p.imgFilePath}
               title={p.title}
