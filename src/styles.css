@@ -68,3 +68,6 @@ button {
   max-width: 1440px;
   width: 100%;
 }
+.slick-dots .slick-active * {
+  background-color: var(--primary);
+}

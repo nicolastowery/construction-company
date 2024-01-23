@@ -1,4 +1,6 @@
 .projectCardImageContainer {
+  /* added margin top for live carousel */
+  margin-top: 32px;
   height: 247px;
 }
 

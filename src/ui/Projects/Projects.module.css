@@ -47,11 +47,11 @@
   color: var(--primary);
 }
 
-.projectCardsContainer {
-  display: flex;
-  gap: 32px;
-  flex-wrap: wrap;
-  max-width: 800px;
+.projectsCarouselContainer {
+  /* display: flex; */
+  /* gap: 32px; */
+  width: 800px;
+  position: relative;
 }
 
 .sliderControlsContainer {
@@ -62,7 +62,8 @@
   align-items: center;
 }
 
-.sliderControlsContainer button {
+.sliderBackButton,
+.sliderNextButton {
   background: var(--neutral-800);
   color: #fff;
   border: none;
@@ -75,6 +76,13 @@
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  position: absolute;
+  top: 108.65%;
+  transform: translateY(-50%);
+}
+
+.sliderNextButton {
+  margin-left: 505px;
 }
 
 .sliderIconContainer {
@@ -88,6 +96,12 @@
   width: 16px;
   border-radius: 999px;
   background-color: var(--neutral-50);
+  margin-top: 55px;
+  transition: 0.1s ease;
+}
+
+.sliderIcon:hover {
+  background-color: var(--neutral-200);
 }
 
 .sliderIconFilled {
