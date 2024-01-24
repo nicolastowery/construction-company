@@ -1,15 +1,15 @@
-import ScrollLink from "../../components/ScrollLink";
+import ScrollLink from "./ScrollLink";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
     <nav className={styles.navContainer}>
       <ul className={styles.navULContainer}>
-        <ScrollLink section="home" />
-        <ScrollLink section="about us" />
-        <ScrollLink section="projects" />
+        <ScrollLink component="home" />
+        <ScrollLink component="about us" />
+        <ScrollLink component="projects" />
         <span className={styles.contactUs}>
-          <ScrollLink section="contact us" />
+          <ScrollLink component="contact us" emphasized />
         </span>
       </ul>
     </nav>

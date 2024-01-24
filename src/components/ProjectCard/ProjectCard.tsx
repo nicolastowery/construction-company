@@ -4,7 +4,6 @@ interface ProjectCardProps {
   imgFilePath: string;
   title: string;
   address: string;
-  // projectType: "commercial" | "resedential" | "other";
 }
 
 export default function ProjectCard({
@@ -16,7 +15,8 @@ export default function ProjectCard({
     <div className={styles.projectCardContainer}>
       <a href="#">
         <div className={styles.projectCardImageContainer}>
-          <img src={imgFilePath} />
+          {/* Might want to use 3rd party library for lazy load */}
+          <img src={imgFilePath} alt={title} loading="lazy" />
         </div>
         <div className={styles.projectCardTextContainer}>
           <h2>{title}</h2>

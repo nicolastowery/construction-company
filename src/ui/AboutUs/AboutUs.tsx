@@ -1,12 +1,12 @@
 import styles from "./AboutUs.module.css";
-
+import { Element } from "react-scroll";
 export default function AboutUs() {
   return (
-    <div className={styles.aboutUsContainer}>
+    <Element name="about us" className={styles.aboutUsContainer}>
       <div className={styles.imageContainer}>
         <img src="headshot.png" alt="unsplash image" className={styles.image} />
       </div>
-      <div className={styles.aboutUsInfoContainer}>
+      <div className={`${styles.aboutUsInfoContainer}`}>
         <h1>About us</h1>
         <div className={styles.aboutUsTextContainer}>
           <div>
@@ -23,6 +23,6 @@ export default function AboutUs() {
         </div>
         <button className={styles.aboutUsButton}>More on Our History</button>
       </div>
-    </div>
+    </Element>
   );
 }

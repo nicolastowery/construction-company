@@ -8,11 +8,13 @@
   font-weight: 400;
 }
 
-.navULContainer li a {
+.link {
   color: var(--neutral-900);
+  cursor: pointer;
 }
 
-.contactUs li a {
+.empLink {
   color: var(--secondary);
   font-weight: 600;
+  cursor: pointer;
 }

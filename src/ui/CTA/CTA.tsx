@@ -1,8 +1,8 @@
 import styles from "./CTA.module.css";
-
+import { Element } from "react-scroll";
 export default function CTA() {
   return (
-    <div className={styles.CTAContainer}>
+    <Element name="contact us" className={styles.CTAContainer}>
       <h1>What can we do for you?</h1>
       <div className={styles.subtitle}>
         We are ready to work on a project of any complexity, whether it's
@@ -42,6 +42,6 @@ export default function CTA() {
           <button className={styles.formButton}>Submit</button>
         </div>
       </form>
-    </div>
+    </Element>
   );
 }
