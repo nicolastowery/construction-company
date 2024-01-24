@@ -1,6 +1,15 @@
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .sticky {
   position: fixed;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.99);
   height: 60px;
   top: 0;
   left: 0;
@@ -8,6 +17,7 @@
   z-index: 2;
   width: 100%;
   padding: 0;
+  animation: slideIn 0.3s ease;
 }
 .headerContainer {
   display: flex;
