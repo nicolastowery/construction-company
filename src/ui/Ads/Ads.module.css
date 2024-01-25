@@ -1,6 +1,7 @@
 .adsContainer {
   height: 300px;
   background-image: url("ads.png");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

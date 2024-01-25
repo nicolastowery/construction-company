@@ -12,15 +12,17 @@ export default function Projects() {
   };
 
   return (
-    <Element name="projects" className={styles.projectsContainer}>
-      <h1>Projects</h1>
-      <div className={styles.projectsContentContainer}>
-        <ProjectsCategories
-          activeCategory={activeCategory}
-          categories={categories}
-          onNewCategory={handleNewActiveCategory}
-        />
-        <ProjectsCarousel activeCategory={activeCategory} />
+    <Element name="projects" className={styles.projectsOuterContainer}>
+      <div className={styles.projectsContainer}>
+        <h1>Projects</h1>
+        <div className={styles.projectsContentContainer}>
+          <ProjectsCategories
+            activeCategory={activeCategory}
+            categories={categories}
+            onNewCategory={handleNewActiveCategory}
+          />
+          <ProjectsCarousel activeCategory={activeCategory} />
+        </div>
       </div>
     </Element>
   );

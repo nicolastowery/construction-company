@@ -1,6 +1,7 @@
 .statsContainer {
   display: flex;
-  padding: 103px 137px 200px 260px;
+  /* padding: 103px 137px 200px 260px; */
+  padding: 103px 10dvw 200px 18dvw;
   justify-content: space-between;
 }
 

@@ -19,6 +19,17 @@
   padding: 0;
   animation: slideIn 0.3s ease;
 }
+
+/* .sticky img {
+  height: 30px;
+}
+
+.sticky div span {
+  font-size: 25px;
+}
+.sticky nav ul li a {
+  font-size: 90% !important;
+} */
 .headerContainer {
   display: flex;
   align-items: center;

@@ -1,6 +1,13 @@
-.CTAContainer {
+.CTAOuterContainer {
   padding: 60px 424px 61px 424px;
   background-color: var(--neutral-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CTAContainer {
+  width: 600px;
 }
 
 .subtitle {
