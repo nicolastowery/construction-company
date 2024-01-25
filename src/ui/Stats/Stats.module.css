@@ -23,7 +23,7 @@
   padding-bottom: 67px;
 }
 
-.statInfo button {
+.statInfo a {
   display: flex;
   width: 176px;
   padding: 16px 20px;

@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import StatCard from "../../components/StatCard/StatCard";
 import styles from "./Stats.module.css";
 
@@ -40,7 +41,9 @@ export default function Stats() {
           Our company has been the leading provided construction services to
           clients throughout the USA since 1988.
         </div>
-        <button>Contact Us</button>
+        <Link to="contact us" smooth duration={500}>
+          Contact Us
+        </Link>
       </div>
     </div>
   );

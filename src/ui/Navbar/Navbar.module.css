@@ -1,5 +1,14 @@
 @import "../../styles.css";
 
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .navULContainer {
   display: flex;
   column-gap: 50px;
@@ -17,4 +26,28 @@
   color: var(--secondary);
   font-weight: 600;
   cursor: pointer;
+}
+
+.burgerMenuContainer {
+  /* max-width: 100px; */
+  position: sticky;
+}
+
+@media (max-width: 900px) {
+  .navULContainer {
+    flex-direction: column;
+    position: absolute;
+    left: -246px;
+    top: 54px;
+    background-color: #fff;
+    height: 400px;
+    width: 310px;
+    row-gap: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    animation: slideIn 0.3s ease;
+    font-size: 150%;
+  }
 }

@@ -37,3 +37,9 @@
   padding: 16px 112px;
   transition: box-shadow 0.3s ease;
 }
+
+@media (max-width: 900px) {
+  .headerContainer {
+    padding: 16px;
+  }
+}
