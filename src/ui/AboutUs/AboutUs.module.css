@@ -1,13 +1,8 @@
 .aboutUsContainer {
   color: #fff;
   position: relative;
-  /* padding-left: 20%; */
-  /* padding-left: 114px; */
   padding-top: 74px;
   padding-bottom: 202px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   height: 945px;
 }
 
@@ -66,4 +61,66 @@
 
 .image {
   width: 902px;
+}
+
+@media (max-width: 1450px) {
+  .aboutUsOuterContainer {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1350px) {
+  .aboutUsOuterContainer {
+    padding-left: 5.5dvw;
+  }
+  .image {
+    width: 700px;
+  }
+
+  .aboutUsInfoContainer {
+    width: 300px;
+    height: 351px;
+    left: 600px;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+
+  .aboutUsTextContainer {
+    width: 250px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .aboutUsInfoContainer h1 {
+    font-size: 25px;
+  }
+
+  .aboutUsButton {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+  .aboutUsContainer {
+    height: 760px;
+  }
+}
+
+@media (max-width: 970px) {
+  .aboutUsOuterContainer {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 920px) {
+  .aboutUsOuterContainer {
+    padding-left: 5.5dvw;
+    height: 600px;
+  }
+  .image {
+    width: 500px;
+  }
+
+  .aboutUsInfoContainer {
+    left: 380px;
+  }
 }
