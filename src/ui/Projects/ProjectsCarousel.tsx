@@ -42,6 +42,20 @@ export default function ProjectsCarousel({
       prevArrow: <ProjectsCarouselArrow direction="left" onClick={() => {}} />,
       nextArrow: <ProjectsCarouselArrow direction="right" onClick={() => {}} />,
       customPaging: () => <div className={styles.sliderIcon} />,
+      responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            centerPadding: "-15px",
+          },
+        },
+        {
+          breakpoint: 805,
+          settings: {
+            centerPadding: "10px",
+          },
+        },
+      ],
     };
   }, []);
 

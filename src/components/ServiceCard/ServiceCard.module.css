@@ -35,3 +35,35 @@
   flex-shrink: 0;
   background: var(--neutral-100);
 }
+
+@media (max-width: 900px) {
+  .serviceCardContainer {
+    height: 115px;
+    width: 191px;
+    padding: 10px;
+    gap: 10px;
+    font-size: 17px;
+  }
+
+  .icon {
+    height: 35px;
+  }
+
+  .rectangle {
+    width: 45px;
+  }
+}
+
+@media (max-width: 470px) {
+  .serviceCardContainer {
+    height: 90px;
+    width: 160px;
+    padding: 7px;
+    gap: 7ps;
+    font-size: 15px;
+  }
+
+  .icon {
+    height: 30px;
+  }
+}

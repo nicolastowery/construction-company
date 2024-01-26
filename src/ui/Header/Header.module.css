@@ -41,5 +41,6 @@
 @media (max-width: 900px) {
   .headerContainer {
     padding: 16px;
+    padding-right: 0;
   }
 }

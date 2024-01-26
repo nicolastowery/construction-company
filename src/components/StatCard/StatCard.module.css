@@ -23,6 +23,8 @@
 
 .statCardTextContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   column-gap: 12px;
   padding-left: 16px;
 }
@@ -80,4 +82,93 @@
   z-index: 0;
   margin-top: -50px;
   margin-left: -180px;
+}
+
+@media (max-width: 660px) {
+  .statCardContainer h1 {
+    font-size: 60px;
+  }
+
+  .statCardText {
+    font-size: 18px;
+  }
+
+  .statCardBlock {
+    width: 5px;
+    height: 20px;
+  }
+
+  .statCardTextContainer {
+    padding-left: 14px;
+    column-gap: 8px;
+  }
+
+  .icon {
+    height: 75px;
+  }
+
+  .second {
+    margin-left: -210px;
+  }
+
+  .third {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 525px) {
+  .icon {
+    height: 60px;
+  }
+
+  .statCardContainer h1 {
+    font-size: 50px;
+  }
+
+  .statCardText {
+    font-size: 16px;
+  }
+  .statCardTextContainer {
+    padding-left: 11px;
+  }
+
+  .statCardContainer {
+    padding: 20px;
+  }
+
+  .second {
+    margin-left: -180px;
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .statCardContainer {
+    padding: 15px;
+    padding-left: 10px;
+  }
+
+  .first {
+    margin-left: -40px;
+  }
+
+  .third {
+    margin-left: -30px;
+  }
+
+  .statCardText {
+    font-size: 14px;
+  }
+
+  .icon {
+    height: 50px;
+  }
+  .top-left {
+    left: -20px;
+    top: -35px;
+  }
+
+  .bottom-right {
+    bottom: -30px;
+  }
 }

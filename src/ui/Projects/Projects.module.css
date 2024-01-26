@@ -30,6 +30,7 @@
 
 .projectsListItemButton {
   display: flex;
+  align-items: center;
   background: none;
   border: none;
   cursor: pointer;
@@ -61,7 +62,7 @@
   /* gap: 32px; */
   width: 800px;
   position: relative;
-  margin-top: -102px;
+  margin-top: -12px;
   /* original spacing */
   /* margin-top: -32px; */
 }
@@ -145,4 +146,83 @@
 
 .projectsListItemButton:hover .isSelectedSpan {
   color: var(--primary);
+}
+
+@media (max-width: 1440px) {
+  .projectsCarouselContainer {
+    width: 650px;
+  }
+  .sliderBackButton,
+  .sliderNextButton {
+    width: 210px;
+  }
+  .sliderNextButton {
+    margin-left: 440px;
+  }
+
+  .sliderIcon {
+    margin-top: 41px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .projectsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .span {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 845px) {
+  .projectsContainer {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+
+  .span {
+    font-size: 15px;
+    padding-left: 8px;
+  }
+
+  .selector {
+    height: 20px;
+    width: 4px;
+  }
+}
+
+@media (max-width: 805px) {
+  .projectsCarouselContainer {
+    width: 300px;
+  }
+
+  .sliderBackButton,
+  .sliderNextButton {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .projectsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .span {
+    padding-left: 3px;
+  }
+
+  .selector {
+    width: 3px;
+  }
+
+  .projectsContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

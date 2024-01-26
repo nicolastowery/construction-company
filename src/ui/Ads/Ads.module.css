@@ -39,3 +39,41 @@
   background: none;
   cursor: pointer;
 }
+
+@media (max-width: 1215px) {
+  .adsTextContainer h1 {
+    font-size: 30px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1080px) {
+  .adsTextContainer h1 {
+    font-size: 20px;
+  }
+
+  .adsText {
+    font-size: 16px;
+    padding-top: 13px;
+  }
+
+  .adsButton {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .adsContainer {
+    column-gap: 60px;
+  }
+}
+
+@media (max-width: 720px) {
+  .adsContainer {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    padding-left: 20px;
+  }
+}

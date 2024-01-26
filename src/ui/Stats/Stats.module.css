@@ -43,3 +43,39 @@
   /* margin-right: auto; */
   padding-left: 212px;
 }
+
+@media (max-width: 1190px) {
+  .statsContainer {
+    padding-right: 20px;
+  }
+
+  .statCardsContainer {
+    padding-left: 360px;
+  }
+  .statInfo {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .statCardsContainer {
+    padding-left: 220px;
+  }
+}
+
+@media (max-width: 575px) {
+  .statCardsContainer {
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 450px) {
+  .statCardsContainer {
+    padding-left: 170px;
+  }
+}
+@media (max-width: 420px) {
+  .statCardsContainer {
+    padding-left: 138px;
+  }
+}

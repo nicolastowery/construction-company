@@ -30,6 +30,7 @@
 
 .burgerMenuContainer {
   /* max-width: 100px; */
+  padding-right: 16px;
   position: sticky;
 }
 
@@ -37,15 +38,16 @@
   .navULContainer {
     flex-direction: column;
     position: absolute;
-    left: -246px;
-    top: 54px;
+    right: 0;
+    top: -20px;
     background-color: #fff;
-    height: 400px;
-    width: 310px;
+    height: 350px;
+    width: 50dvw;
     row-gap: 25px;
-    padding-top: 20px;
+    padding-top: 83px;
     padding-left: 30px;
-    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+    border: 1px solid rgba(0, 0, 0, 0.1);
     z-index: -1;
     animation: slideIn 0.3s ease;
     font-size: 150%;
