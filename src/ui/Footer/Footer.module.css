@@ -21,9 +21,40 @@
   align-items: end;
   font-size: 11px;
   row-gap: 5px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footerRight a {
   color: inherit;
   text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .footerRight {
+    font-size: 9px;
+  }
+
+  .footerLeft {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 10px;
+  }
+
+  .footerRight {
+    align-items: start;
+  }
 }

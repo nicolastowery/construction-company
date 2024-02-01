@@ -1,5 +1,6 @@
 .CTAOuterContainer {
-  padding: 60px 424px 61px 424px;
+  /* padding: 60px 424px 61px 424px; */
+  padding: 60px 0 61px 0;
   background-color: var(--neutral-50);
   display: flex;
   align-items: center;
@@ -7,7 +8,7 @@
 }
 
 .CTAContainer {
-  width: 600px;
+  width: 593px;
 }
 
 .subtitle {
@@ -74,4 +75,38 @@
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+}
+
+@media (max-width: 680px) {
+  .CTAContainer {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .CTAContainer h1 {
+    font-size: 27px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+  }
+
+  .formText {
+    font-size: 12px;
+  }
+
+  .formRow {
+    column-gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  .formInput {
+    /* padding: 5px 4px; */
+    width: 50%;
+  }
+
+  .formTextArea {
+    height: 100px !important;
+  }
 }

@@ -214,11 +214,13 @@
 
 @media (max-width: 480px) {
   .span {
-    padding-left: 3px;
+    padding-left: 0px;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .selector {
-    width: 3px;
+    display: none;
   }
 
   .projectsContainer {

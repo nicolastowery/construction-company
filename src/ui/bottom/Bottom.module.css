@@ -35,7 +35,8 @@
 }
 
 .input {
-  width: 280px;
+  width: 65%;
+  /* width: 280px; */
   padding: 10px 8px;
   gap: 10px;
   border-radius: 4px;
@@ -49,7 +50,8 @@
 
 .button {
   margin-left: 8px;
-  width: 136px;
+  /* width: 136px; */
+  width: 30%;
   height: 41px;
   border-radius: 4px;
   background: var(--secondary);
@@ -62,4 +64,45 @@
 .socialContainer {
   display: flex;
   column-gap: 20px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1250px) {
+  .bottomContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .bottomContainerHalf {
+    width: 300px;
+    font-size: 13px;
+    row-gap: 30px;
+  }
+
+  .label {
+    font-size: 15px;
+    width: 74px;
+  }
+
+  .input {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 14px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 630px) {
+  .bottomContainer {
+    flex-direction: column-reverse;
+    row-gap: 70px;
+  }
 }

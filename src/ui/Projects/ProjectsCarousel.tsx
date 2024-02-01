@@ -52,7 +52,7 @@ export default function ProjectsCarousel({
         {
           breakpoint: 805,
           settings: {
-            centerPadding: "10px",
+            centerPadding: "-10px",
           },
         },
       ],

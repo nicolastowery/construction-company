@@ -126,3 +126,34 @@
     left: 45dvw;
   }
 }
+
+@media (max-width: 655px) {
+  .aboutUsInfoContainer {
+    width: 200px;
+    height: 251px;
+    left: 600px;
+    padding-top: 10px;
+    padding-left: 15px;
+    left: 45dvw;
+  }
+
+  .aboutUsInfoContainer h1 {
+    font-size: 20px;
+  }
+
+  .aboutUsTextContainer {
+    width: 150px;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .aboutUsButton {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .aboutUsInfoContainer {
+    left: 40dvw;
+  }
+}
