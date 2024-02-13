@@ -14,6 +14,7 @@ export default function ScrollLink({ component, emphasized }: ScrollLinkProps) {
         smooth
         duration={500}
         className={emphasized ? styles.empLink : styles.link}
+        offset={window.innerWidth <= 600 ? -300 : -50}
       >
         {component}
       </Link>

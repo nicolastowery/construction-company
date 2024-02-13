@@ -7,7 +7,8 @@ import HamburgerNavbar from "../Navbar/HamburgerNavbar";
 export default function Header() {
   const [isSticky, setIsSticky] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [smallScreen, setSmallScreen] = useState(false);
+  const [smallScreen, setSmallScreen] = useState(window.innerWidth <= 900);
+
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
