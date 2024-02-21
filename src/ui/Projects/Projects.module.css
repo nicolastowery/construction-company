@@ -23,7 +23,7 @@
 .projectsList {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  gap: 20px;
   position: sticky;
   top: 85px;
 }
@@ -226,5 +226,15 @@
   .projectsContainer {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .projectsList {
+    flex-direction: row;
+  }
+
+  .projectsContentContainer {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
   }
 }
