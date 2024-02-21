@@ -10,10 +10,10 @@
 .sticky {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.99);
-  height: 60px;
+  height: 3.75rem;
   top: 0;
   left: 0;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
   z-index: 2;
   width: 100%;
   padding: 0;
@@ -24,13 +24,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 112px;
+  padding: 1rem 7rem;
   transition: box-shadow 0.3s ease;
 }
 
 @media (max-width: 900px) {
   .headerContainer {
-    padding: 16px;
+    padding: 1rem;
     padding-right: 0;
   }
 }

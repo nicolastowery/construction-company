@@ -1,15 +1,15 @@
 .footer {
   background-color: var(--primary);
   display: flex;
-  height: 70px;
+  height: 4.375rem;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 0 112px 0 112px;
+  padding: 0 7rem 0 7rem;
 
   /* Caption */
   font-family: Work Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  font-size: 11px;
-  row-gap: 5px;
+  font-size: 0.6875rem;
+  row-gap: 0.3125rem;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -31,18 +31,18 @@
 
 @media (max-width: 1250px) {
   .footer {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 
 @media (max-width: 1030px) {
   .footerRight {
-    font-size: 9px;
+    font-size: 0.5625rem;
   }
 
   .footerLeft {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 
@@ -51,7 +51,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    row-gap: 10px;
+    row-gap: 0.625rem;
   }
 
   .footerRight {

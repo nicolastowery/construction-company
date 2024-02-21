@@ -1,39 +1,39 @@
 .statsContainer {
   display: flex;
-  /* padding: 103px 137px 200px 260px; */
-  padding: 103px 10dvw 200px 18dvw;
+  /* padding: 6.4375rem 8.5625rem 12.5rem 16.25rem; */
+  padding: 6.4375rem 10dvw 12.5rem 18dvw;
   justify-content: space-between;
 }
 
 .statInfo {
-  width: 359px;
-  padding-top: 50px;
+  width: 22.4375rem;
+  padding-top: 3.125rem;
 }
 
 .statInfo h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   text-align: left;
   color: var(--primary);
 }
 
 .statInfoText {
   color: var(--neutral-600);
-  width: 330px;
-  padding-top: 40px;
-  padding-bottom: 67px;
+  width: 20.625rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4.1875rem;
 }
 
 .statInfo a {
   display: flex;
-  width: 176px;
-  padding: 16px 20px;
+  width: 11rem;
+  padding: 1rem 1.25rem;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  border-radius: 2px;
+  gap: 0.625rem;
+  border-radius: 0.125rem;
   background: var(--primary);
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -41,16 +41,16 @@
 
 .statCardsContainer {
   /* margin-right: auto; */
-  padding-left: 212px;
+  padding-left: 13.25rem;
 }
 
 @media (max-width: 1190px) {
   .statsContainer {
-    padding-right: 20px;
+    padding-right: 1.25rem;
   }
 
   .statCardsContainer {
-    padding-left: 360px;
+    padding-left: 22.5rem;
   }
   .statInfo {
     display: none;
@@ -59,23 +59,23 @@
 
 @media (max-width: 800px) {
   .statCardsContainer {
-    padding-left: 220px;
+    padding-left: 13.75rem;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 35.9375rem) {
   .statCardsContainer {
-    padding-left: 150px;
+    padding-left: 9.375rem;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 28.125rem) {
   .statCardsContainer {
-    padding-left: 170px;
+    padding-left: 10.625rem;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 26.25rem) {
   .statCardsContainer {
-    padding-left: 138px;
+    padding-left: 8.625rem;
   }
 }

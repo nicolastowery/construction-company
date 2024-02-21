@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  font: 20px "Work Sans", sans-serif;
+  font: 1.25rem "Work Sans", sans-serif;
   font-weight: 400;
   position: relative;
   height: 100%;
@@ -48,7 +48,7 @@ a {
 h1 {
   color: var(--neutral-800);
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

@@ -3,11 +3,11 @@
 .logoContainer {
   display: flex;
   align-items: center;
-  column-gap: 14px;
+  column-gap: 0.875rem;
 }
 
 .textContainer {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   font-style: italic;
   color: var(--primary);

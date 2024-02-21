@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 64.375rem) {
+@media (max-width: 1030px) {
   .bottomContainerHalf {
     width: 18.75rem;
     font-size: 0.8125rem;
@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 39.375rem) {
+@media (max-width: 630px) {
   .bottomContainer {
     flex-direction: column-reverse;
     row-gap: 4.375rem;

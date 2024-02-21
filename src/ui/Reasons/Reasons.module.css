@@ -2,34 +2,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 84px;
+  padding-top: 3.75rem;
+  padding-bottom: 5.25rem;
   flex-direction: column;
 }
 
 .reasonsContainer h1 {
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
 .reputationCardsContainer {
   display: flex;
-  max-width: 1008px;
+  max-width: 63rem;
   width: 96%;
-  /* column-gap: 66px; */
+  /* column-gap: 4.125rem; */
   align-items: center;
   justify-content: space-between;
 }
 
 @media (max-width: 930px) {
   .reputationCardsContainer {
-    max-width: 700px;
+    max-width: 43.75rem;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 0.3125rem;
   }
 }
 @media (max-width: 655px) {
   .reputationCardsContainer {
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
   }
 }

@@ -1,6 +1,6 @@
 .servicesContainer {
   background-color: var(--neutral-50);
-  padding: 44px 20px 76px 20px;
+  padding: 2.75rem 1.25rem 4.75rem 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,16 +8,16 @@
 }
 
 .serviceCardContainer {
-  padding-top: 36px;
+  padding-top: 2.25rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  column-gap: 98px;
-  row-gap: 48px;
-  max-width: 1100px;
-  /* padding: 0 200px 0 200px; */
-  /* max-width: 1409px; */
+  column-gap: 6.125rem;
+  row-gap: 3rem;
+  max-width: 68.75rem;
+  /* padding: 0 12.5rem 0 12.5rem; */
+  /* max-width: 88.0625rem; */
 }
 
 @media (max-width: 1100px) {
@@ -29,6 +29,6 @@
 
 @media (max-width: 400px) {
   .servicesContainer {
-    padding: 44px 5px 76px 5px;
+    padding: 2.75rem 0.3125rem 4.75rem 0.3125rem;
   }
 }

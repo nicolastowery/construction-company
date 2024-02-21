@@ -1,9 +1,9 @@
 .aboutUsContainer {
   color: #fff;
   position: relative;
-  padding-top: 74px;
-  padding-bottom: 202px;
-  height: 945px;
+  padding-top: 4.625rem;
+  padding-bottom: 12.625rem;
+  height: 59.0625rem;
 }
 
 .aboutUsOuterContainer {
@@ -16,39 +16,39 @@
 }
 
 .aboutUsInfoContainer {
-  width: 488px;
-  height: 523px;
+  width: 30.5rem;
+  height: 32.6875rem;
   flex-shrink: 0;
-  border-radius: 2px;
+  border-radius: 0.125rem;
   background: var(--primary);
-  box-shadow: 0px 8px 8px -4px rgba(17, 24, 39, 0.04),
-    0px 20px 24px -4px rgba(17, 24, 39, 0.1);
-  padding-left: 40px;
-  padding-top: 50px;
-  left: 820px;
-  top: 135px;
+  box-shadow: 0rem 0.5rem 0.5rem -0.25rem rgba(17, 24, 39, 0.04),
+    0rem 1.25rem 1.5rem -0.25rem rgba(17, 24, 39, 0.1);
+  padding-left: 2.5rem;
+  padding-top: 3.125rem;
+  left: 51.25rem;
+  top: 8.4375rem;
   position: absolute;
 }
 
 .aboutUsTextContainer {
-  width: 388px;
-  margin-bottom: 74px;
-  margin-top: 37px;
+  width: 24.25rem;
+  margin-bottom: 4.625rem;
+  margin-top: 2.3125rem;
 }
 
 .aboutUsButton {
   display: inline-flex;
-  padding: 16px 20px;
+  padding: 1rem 1.25rem;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  border-radius: 6px;
+  gap: 0.625rem;
+  border-radius: 0.375rem;
   border: none;
   background: #fff;
   color: var(--primary);
   text-align: center;
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -60,12 +60,12 @@
 }
 
 .image {
-  width: 902px;
+  width: 56.375rem;
 }
 
 @media (max-width: 1450px) {
   .aboutUsOuterContainer {
-    padding-left: 10px;
+    padding-left: 0.625rem;
   }
 }
 @media (max-width: 1350px) {
@@ -73,78 +73,78 @@
     padding-left: 5.5dvw;
   }
   .image {
-    width: 700px;
+    width: 43.75rem;
   }
 
   .aboutUsInfoContainer {
-    width: 300px;
-    height: 351px;
-    left: 600px;
-    padding-top: 20px;
-    padding-left: 25px;
+    width: 18.75rem;
+    height: 21.9375rem;
+    left: 37.5rem;
+    padding-top: 1.25rem;
+    padding-left: 1.5625rem;
   }
 
   .aboutUsTextContainer {
-    width: 250px;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    width: 15.625rem;
+    font-size: 0.9375rem;
+    margin-top: 0.9375rem;
+    margin-bottom: 1.875rem;
   }
 
   .aboutUsInfoContainer h1 {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   .aboutUsButton {
-    font-size: 15px;
-    padding: 10px 12px;
+    font-size: 0.9375rem;
+    padding: 0.625rem 0.75rem;
   }
 
   .aboutUsContainer {
-    height: 760px;
+    height: 47.5rem;
   }
 }
 
 @media (max-width: 970px) {
   .aboutUsOuterContainer {
-    padding-left: 10px;
+    padding-left: 0.625rem;
   }
 }
 
 @media (max-width: 940px) {
   .aboutUsOuterContainer {
     padding-left: 5.5dvw;
-    height: 600px;
+    height: 37.5rem;
   }
   .image {
-    /* width: 500px; */
+    /* width: 31.25rem; */
     width: 56dvw;
   }
 
   .aboutUsInfoContainer {
-    /* left: 380px; */
+    /* left: 23.75rem; */
     left: 45dvw;
   }
 }
 
 @media (max-width: 655px) {
   .aboutUsInfoContainer {
-    width: 200px;
-    height: 251px;
-    left: 600px;
-    padding-top: 10px;
-    padding-left: 15px;
+    width: 12.5rem;
+    height: 15.6875rem;
+    left: 37.5rem;
+    padding-top: 0.625rem;
+    padding-left: 0.9375rem;
     left: 45dvw;
   }
 
   .aboutUsInfoContainer h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .aboutUsTextContainer {
-    width: 150px;
-    font-size: 12px;
-    margin-top: 12px;
+    width: 9.375rem;
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
   }
 
   .aboutUsButton {
